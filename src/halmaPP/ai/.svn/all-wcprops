@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/halmapp-spesd/!svn/ver/315/src/halmaPP/ai
+END
+AIPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/ai/AIPlayer.java
+END
+HardAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/halmapp-spesd/!svn/ver/315/src/halmaPP/ai/HardAI.java
+END
+MediumAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/halmapp-spesd/!svn/ver/315/src/halmaPP/ai/MediumAI.java
+END
+EasyAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/halmapp-spesd/!svn/ver/315/src/halmaPP/ai/EasyAI.java
+END

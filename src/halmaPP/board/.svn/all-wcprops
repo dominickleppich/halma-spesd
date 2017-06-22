@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/board
+END
+CoordList.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/board/CoordList.java
+END
+Field.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/halmapp-spesd/!svn/ver/280/src/halmaPP/board/Field.java
+END
+Coord.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/halmapp-spesd/!svn/ver/280/src/halmaPP/board/Coord.java
+END
+Board.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/halmapp-spesd/!svn/ver/280/src/halmaPP/board/Board.java
+END
+CoordListIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/board/CoordListIterator.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/halmapp-spesd/!svn/ver/307/src/halmaPP/game
+END
+Const.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/halmapp-spesd/!svn/ver/276/src/halmaPP/game/Const.java
+END
+XMLGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/halmapp-spesd/!svn/ver/274/src/halmaPP/game/XMLGenerator.java
+END
+MultiplayerSetup.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/halmapp-spesd/!svn/ver/273/src/halmaPP/game/MultiplayerSetup.java
+END
+ArgsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/halmapp-spesd/!svn/ver/276/src/halmaPP/game/ArgsParser.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/halmapp-spesd/!svn/ver/307/src/halmaPP/game/Game.java
+END
+XMLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/halmapp-spesd/!svn/ver/305/src/halmaPP/game/XMLParser.java
+END

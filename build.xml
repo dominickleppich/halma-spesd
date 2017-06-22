@@ -1,0 +1,39 @@
+<project name="halmaPP" default="all" basedir=".">
+  <property name="src.dir" location="src"/>
+  <property name="build.dir" location="build"/>
+  <property name="doc.dir" location="documentation"/>
+  <property name="jar.dir" location="dist"/>  
+
+  <property name="main.class" value="halmaPP.game.Game"/>
+
+  <target name="all" depends="compile,doc,jar"/>
+
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${doc.dir}"/>
+    <mkdir dir="${jar.dir}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac srcdir="${src.dir}" destdir="${build.dir}" debug="on" includeantruntime="false"/>
+  </target>
+
+  <target name="doc" depends="init">
+    <javadoc sourcepath="${src.dir}" destdir="${doc.dir}" author="true" version="true" private="true"/>
+  </target>
+
+  <target name="jar" depends="compile">
+    <jar destfile="${jar.dir}/HalmaPP.jar" basedir="${build.dir}">	
+      <manifest>	
+	<attribute name="Main-Class" value="${main.class}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+    <delete dir="${dist.dir}"/>
+    <delete dir="${doc.dir}"/>
+    <delete dir="${jar.dir}"/>
+  </target>
+</project>

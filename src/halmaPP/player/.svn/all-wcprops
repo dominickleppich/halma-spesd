@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/player
+END
+AbstractPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/halmapp-spesd/!svn/ver/314/src/halmaPP/player/AbstractPlayer.java
+END
+MoveList.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/halmapp-spesd/!svn/ver/302/src/halmaPP/player/MoveList.java
+END
+NetPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/halmapp-spesd/!svn/ver/275/src/halmaPP/player/NetPlayer.java
+END
+HumanPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/halmapp-spesd/!svn/ver/275/src/halmaPP/player/HumanPlayer.java
+END
+MoveAndState.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/halmapp-spesd/!svn/ver/276/src/halmaPP/player/MoveAndState.java
+END

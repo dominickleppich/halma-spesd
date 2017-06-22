@@ -1,0 +1,84 @@
+<html>
+
+<head>
+<title>Handbuch - HalmaPP SPESD</title>
+</head>
+
+<body>
+
+<p><h1>HalmaPP</h1></p>
+
+<br />
+
+<h2><b>Inhaltsverzeichnis:</b></p>
+
+<ol>
+	<li><a href="#vorraus">Vorrausetzungen</a></li>
+	<li><a href="#install">Installation</a></li>
+	<li><a href="#start">Start und Men&uuml;f&uuml;hrung</a></li>
+	<li><a href="#moves">Spielz&uuml;ge</a></li>
+	<li><a href="#win">Sieg</a></li>
+	<li><a href="#doku">Dokumentation</a></li>
+</ol>
+
+<hr />
+
+<a name="vorraus"><h3>Vorrausetzungen</h3></a>
+<p><font size="3">Das Spiel l&auml;uft mit Java Runtime Enviroment 6 unter nahezu
+fast allen Systemen. Je schneller das System, desto weniger Zeit ben&ouml;tigt die
+KI f&uuml;r Spielz&uuml;ge. Unter Systemen mit schwacher Grafikkarte besteht die
+M&ouml;glichkeit, dass Spielz&uuml;ge relativ lange dauern.</font></p>
+
+<a name="install"><h3>Installation</h3></a>
+<p><font size="3"><u>F&uuml;r die Installation unter Linux  gehen sie wie folgt vor:</u>
+<ol>
+<li>Laden sie das komplette HalmaPP - Team SPESD Paket herunter.</li>
+<li>Begeben sie sich im Terminal in das heruntergeladene Verzeichnis.</li>
+<li>F&uuml;hren sie <code>ant</code> aus. Das Programm wird nun kompiliert. Dies kann bis zu wenige Minuten in Anspruch nehmen.</li>
+</ol></font></p>
+
+<a name="start"><h3>Start und Men&uuml;f&uuml;hrung</h3></a>
+<p><font size="3"><u>Starten:</u><br />
+Starten sie das Spiel mit dem Befehl <code>java -jar jar/HalmaPP.jar</code><br />
+&uuml;ber das Terminal. Das GUI sollte sich kurz darauf &ouml;ffnen.<br />
+Mit <code>java -jar jar/HalmaPP.jar --help</code> kann eine &Uuml;bersicht aller Parameter angezeigt werden.</font></p>
+<p><font size="3"><u>Men&uuml;f&uuml;hrung:</u><br />
+<ul>
+	<li>Datei:<ul>
+		<li>Neu - Startet ein neues Spiel</li>
+		<li>Speichern - Speichert das aktuelle Spiel und alle Spielz&uuml;ge in einer XML-Datei. (ist nur m&ouml;glich, wenn das Spiel nicht &uuml;ber Netzwerk l&auml;uft)</li>
+		<li>Laden - L&auml;dt eine XML-Spieldatei und l&auml;sst bis zu einem beliebigen Spielzug laden.</li>
+		<li>Beenden - Beendet das Spiel</li>
+	</ul></li>
+	<li>Spieler:<ul>
+		<li>Neuer Menschlicher Spieler</li>
+		<li>Neuer einfacher Computerspieler</li>
+		<li>Neuer mittlerer Computerspieler</li>
+		<li>Neuer schwerer Computerspieler</li>
+	</ul></li>
+	<li>Hilfe:<ul>
+		<li>Handbuch - Startet dieses Handbuch</li>
+		<li>Tutorial - Startet eine visuelle Einf&uuml;hrung in das Spiel. Hier werden die Regeln kurz erkl&auml;rt.</li>
+	</ul></li>
+	<li>LAN<ul>
+		<li>Netzwerkspiel hosten - Startet ein Netzwerkspiel. Hierbei ist der lokale Spieler rot und der Netzwerkspieler muss mit einem blauen Spieler dem Spiel beitreten.</li>
+		<li>Netzwerkspiel beitreten - Kann einem existierenden Netzwerkspiel beitreten. Es muss die IP-Adresse des Ziel-Computers eingegeben werden und im Anschluss ein blauer Spieler gew&auml;hlt werden.</li>
+	</ul></li>
+</ul></font></p>
+
+<a name="moves"><h3>Spielz&uuml;ge</h3></a>
+<p><font size="3">Bei HalmaPP gibt es zwei Arten von Spielz&uuml;gen:<br />
+<b>Schieben</b> - Beim Schieben wird die gew&auml;hlte Spielfigur in eine der sechs m&ouml;glichen Richtungen nur ein Feld verschoben, sofern dort keine andere Figur das Feld blockiert.<br />
+<b>Springen<b/> - Beim Springen wird eine direkt neben der gew&auml;hlten Figur stehende Figur (egal ob Feind oder Freund) ben&ouml;tigt. Linear von der gew&auml;hlten Figur sollte sich hinter der angrenzenden Figur ein freies Feld befinden. Dann ist ein Sprung m&ouml;glich. Spr&uuml;nge lassen sich beliebig oft aneinander reihen, jedoch darf keine bereits besuchte Position erneut angesprungen werden. Nach erfolgreichem Springen ist keine normales Schieben in der gleichen Runde m&ouml;glich.</font></p>
+
+<a name="win"><h3>Sieg</h3></a>
+<p><font size="3">Der Sieg ist errungen, wenn das Zielhaus an der oberen Seite des Spielbretts in eigener Farbe gef&uuml;llt ist. Ob mit eigenen oder fremden Steinen spielt keine Rolle, solange alle 15 Felder besetzt sind. Sollte ein Spieler keinen Spielzug m&ouml;glich haben, so ist die
+Partie als unentschieden zu werten.</font></p>
+
+<a name="doku"><h3>Dokumentation</h3></a>
+<p><font size="3">Eine ausf&uuml;hrliche Dokumentation ist unter <code>halmapp-spesd/documentation</code> zu finden. Im Programm verwendete Methoden liegen dort in Javadoc detailliert beschrieben zur Verf&uuml;gung.</font></p>
+
+
+</body>
+
+</html>
